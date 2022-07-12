@@ -18,7 +18,9 @@
     margin-left: 24%;
     color:azure;
 }
-
+section{
+    margin-left: 170px;
+}
 .submit{
     font-size: 16px;
     border-radius: 20px;
@@ -45,4 +47,10 @@
     line-height: 2;
     padding-left: 20px;
 }
+@media (max-width: 920px){
+    section{
+        margin-left: 0px;
+    }
+}
+
 
